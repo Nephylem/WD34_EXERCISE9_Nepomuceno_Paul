@@ -1,0 +1,214 @@
+html, body {
+    width: 100%;
+    margin: 0;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    background: #614a21;
+}
+
+.navbar {
+    display: flex;
+    background: #220101d3;
+    position: fixed;
+    width: 100%;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0px 10px;
+    color: white;
+    z-index: 1000;
+    
+}
+
+.nav-icon {
+    display: flex;
+    align-items: center;
+}
+
+.nav-icon a {
+    text-decoration: none;
+    color: white;
+}
+.nav-icon a img{ 
+    width: 60px;
+    height: auto;
+}
+.nav-links {
+    list-style-type: none;
+    display: flex;
+}
+.nav-links li a {
+    text-decoration: none;
+    margin: 0px 10px;
+    padding: 15px;
+    border-radius: 20px;
+    font-size: 20px;
+    color: white;
+    cursor: pointer;
+}
+
+.nav-links li a:hover {
+    transition: .5s; 
+    background: orange;
+    color: black;
+    font-weight: bold;
+}
+
+/* Hero */
+
+.banner { 
+    display: flex;
+    position: relative;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    z-index: 1;
+    
+}
+
+/* .banner-content {
+    position: absolute;
+    color: rgb(255, 255, 255);
+    z-index: 3;
+} */
+
+
+.overlay {
+    background: rgba(87, 60, 60, 0.253);
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    z-index: 2;   
+}
+
+
+/* Menu */
+
+.menu {
+    margin: 40px;
+    border: none;
+    box-shadow: 0px 0px 30px 0px #220101d3;
+    padding: 20px;
+}
+
+.menu h1 {
+    color: white;
+}
+
+.menu h2 {
+    color: white;
+    justify-content: center;
+    display: flex;
+}
+
+
+.menu-content { 
+    width: 100%;
+    height: 720px;
+    display: flex;
+    justify-content: space-evenly;
+    color: white;
+    
+}
+
+.menu-item {
+    border-radius: 12px;
+    box-shadow: 0px 0px 20px 5px #220101d3;
+    width: 50%;
+    height: 550px;
+    padding: 24px;
+    margin: 2px;
+    display: flex;
+}
+
+.menu-desc {
+    line-height: 60px;
+    font-size: 22px;
+    padding: 0px 10px 0px 20px;
+}
+
+.img-item {
+    width: 100%;
+    height: 100%;
+    border: 3px solid black;
+}
+
+
+/* About */
+
+.about {
+    margin: 40px;
+    border: none;
+    box-shadow: 0px 0px 30px 0px #220101d3;
+    padding: 20px;
+}
+
+.about h1 {
+    color: white;
+}
+
+.about-content {
+    width: auto;
+    margin: 50px;
+    color: white;
+    border: 8px none #835602;
+    border-radius: 12px;
+    box-shadow: 10px 20px 20px 2px #220101d3;
+    background: #ffffff13;
+    padding: 25px;
+}
+.about-content p {
+    line-height: 32px;
+    font-size: 22px;
+}
+
+
+/* Contact Us */
+.contact-us {
+    display: flex;
+    justify-content: center;
+    background-color: #ffffff13;
+    border-radius: 12px;
+    margin: 125px 250px 20px 250px;
+    padding: 50px 0px;
+    box-shadow: 10px 20px 20px 12px #220101d3;
+    
+}
+
+
+.input-form {
+    background: none;
+    border: none;
+    border: 2px solid black;
+    width: 360px;
+    height: 25px;
+    margin: 2px;
+    border-radius: 6px;   
+}
+
+.text-area {
+    background: none;
+    border: none;
+    border: 2px solid black;
+    width: 360px;
+    height: 360px;
+    margin: 2px;
+    border-radius: 6px;   
+    resize: none;
+}
+
+.btn-submit {
+    background: none;
+    border: none;
+    border: 2px solid black;
+    width: 370px;
+    height: 25px;
+    margin: 2px;
+    border-radius: 12px;
+    cursor: pointer;
+    
+}
+
+.btn-submit:hover {
+    transition: .5s;
+    background: tomato;
+    color: black;
+}
